@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <socio-ethical-policy
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="socio-ethical-robot-children-hospital.xsd">
+	xsi:noNamespaceSchemaLocation="socio-ethical-robot-early-learning-centre.xsd">
 	<authorisation-rules id="R1">
 		<rule>
 			<rule-name>Communicate-With-Users</rule-name>
@@ -72,11 +72,11 @@
 						</case>
 						<case>
 							<situation>quiet</situation>
-							<action>Alert-On-Floor-Sanitization-<OR>Items-Delivery</OR>-Using-Voice</action>             
+							<action>Alert-On-Floor-Sanitization-<OR>Entertain</OR>-Using-Voice</action>             
 						</case>
 						<case>
 							<situation>vacant</situation>
-							<action>Alert-On-Floor-Sanitization-<OR>Items-Delivery</OR>-Using-Voice</action>             
+							<action>Alert-On-Floor-Sanitization-<OR>Entertain</OR>-Using-Voice</action>             
 						</case>
 					</situation-dependencies>
 				</context>
