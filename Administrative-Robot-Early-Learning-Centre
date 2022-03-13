@@ -37,11 +37,11 @@
 					<situation-dependencies>
 						<case>
 							<situation>crowded</situation>
-							<action>Help-User<within>Allocated-Time</within></action>	
+							<action>Complete-Job<within>Allocated-Time</within></action>	
 						</case>
 						<case>
 							<situation>vaccant</situation>
-							<action>Help-User-Promptly</action>	
+							<action>Complete-Job-Promptly</action>	
 						</case>
 					</situation-dependencies>
 				</context>
